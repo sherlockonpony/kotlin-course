@@ -36,7 +36,6 @@ val unknownDampingCoefficient: Double? = null
 println(calculateTotalShippingCost(300.0))
 }
 
-
     fun calculateDampedSoundIntensity(initialIntensity: Double, dampingCoefficient: Double?): Double {
         val effectiveDampingCoefficient = dampingCoefficient ?: 0.5
         return initialIntensity * effectiveDampingCoefficient
@@ -48,3 +47,4 @@ val insurance = effectiveCargoValue * 0.005
     return totalShippingCost
 }
 
+// 3-я задача не осилена
